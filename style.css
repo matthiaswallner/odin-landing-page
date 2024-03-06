@@ -1,5 +1,5 @@
 body {
-
+    font-family: sans-serif;
 }
 
 body > div {
@@ -9,6 +9,8 @@ body > div {
 .header {
     display: flex;
     justify-content: space-between;
+
+    font-size: 24px;
 }
 
 .header-links {
@@ -25,12 +27,29 @@ body > div {
 .left-frontal {
     display: flex;
     flex-direction: column;
+    flex: 1 1 100px;
+}
+
+.right-frontal {
+    flex: 1 1 100px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
 }
 
 .info-section {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
+
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .infos {
@@ -41,11 +60,18 @@ body > div {
 .info {
     display: flex;
     flex-direction: column;
+
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .quote {
     display: block;
     padding: 50px 150px;
+
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .form {
@@ -80,7 +106,8 @@ body > div {
     background-color: #e5e7eb;
 }
 
-button {
+button,
+.form-container {
     background-color: #3882f6;
 }
 
@@ -90,7 +117,8 @@ button {
 
 /* text colors */
 .header,
-.footer {
+.footer,
+.form-container {
     color: white;
 }
 
