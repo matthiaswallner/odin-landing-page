@@ -1,0 +1,50 @@
+body {
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.frontal {
+    display: flex;
+}
+
+.left-frontal {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: block;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer {
+    text-align: center;
+}
