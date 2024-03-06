@@ -2,6 +2,10 @@ body {
 
 }
 
+body > div {
+    padding: 0px 100px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -14,6 +18,8 @@ body {
 
 .frontal {
     display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .left-frontal {
@@ -24,10 +30,12 @@ body {
 .info-section {
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 
 .infos {
     display: flex;
+    gap: 20px;
 }
 
 .info {
@@ -37,9 +45,18 @@ body {
 
 .quote {
     display: block;
+    padding: 50px 150px;
 }
 
 .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
