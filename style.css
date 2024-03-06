@@ -65,3 +65,49 @@ body > div {
 .footer {
     text-align: center;
 }
+
+
+
+
+/* background colors */
+.header,
+.frontal,
+.footer {
+    background-color: #1F2937; 
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.right-frontal {
+    background-color: grey;
+}
+
+/* text colors */
+.header,
+.footer {
+    color: white;
+}
+
+.header-links {
+    color: #e5e7eb;
+}
+
+.title,
+button {
+    color: white;
+}
+
+.subtext {
+    color: #e5e7eb;
+}
+
+.quote,
+.info-section {
+    color: #1F2937;
+}
