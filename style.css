@@ -11,11 +11,14 @@ body > div {
     justify-content: space-between;
 
     font-size: 24px;
+    font-weight: bold;
 }
 
 .header-links {
     display: flex;
     gap: 16px;
+
+    font-weight: lighter;
 }
 
 .frontal {
@@ -60,9 +63,17 @@ body > div {
 .info {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     font-size: 18px;
     font-weight: 100;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    outline: solid 3px #3882f6;
 }
 
 .quote {
